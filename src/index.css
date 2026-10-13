@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Merriweather', Georgia, serif;
+  --font-sans: 'Open Sans', system-ui, -apple-system, sans-serif;
+  --font-script: 'Pacifico', cursive;
+  --font-hand: 'Caveat', cursive;
+  --color-logo-red: #D71920;
+  --color-logo-red-dark: #B51016;
+  --color-logo-red-deep: #8E0C10;
+  --color-logo-yellow: #FFC700;
+  --color-logo-yellow-dark: #EAA800;
+  --color-logo-yellow-light: #FFD633;
+  --color-logo-yellow-warm: #FFF5CC;
+  --color-brand-primary: #D71920;
+  --color-brand-surface: #D71920;
+}
+
+:root {
+  --logo-red: #D71920;
+  --logo-red-dark: #B51016;
+  --logo-yellow: #FFC700;
+  --logo-white: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1F1916;
+  background-color: #D71920;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}
+
+.font-script {
+  font-family: 'Pacifico', cursive;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive;
+}
+
+/* Subtle retro pattern on the red canvas */
+.bg-red-canvas {
+  background-color: #D71920;
+  background-image: radial-gradient(#B51016 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Circular Badge with white concentric rings like the logo */
+.logo-concentric-badge {
+  background-color: #D71920;
+  border: 4px solid #FFFFFF;
+  box-shadow: 0 0 0 4px #FFC700, 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+/* Custom smooth scrollbar in red & yellow */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #B51016;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFC700;
+  border-radius: 5px;
+  border: 2px solid #D71920;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF;
+}

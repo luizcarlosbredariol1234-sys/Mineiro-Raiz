@@ -1,0 +1,6 @@
+{
+  "name": "Mineiro Raiz - Lanchonete & Café",
+  "description": "Mineiro Raiz: O Rei Do Pão de Queijo em Chavantes - SP. Pão de queijo quentinho da Canastra, salgados artesanais, café coado e os melhores lanches mineiros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
